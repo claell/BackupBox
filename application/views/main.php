@@ -25,7 +25,7 @@
 			            	<?php
 				            	echo "<tr><td>Public IP</td><td>".$b->public_ip."</td></tr>";
 				            	echo "<tr><td>Local IP</td><td>".$b->local_ip."</td></tr>";
-				            	echo "<tr><td>Used space</td><td>".$b->used_space."</td></tr>";			            	
+				            	echo "<tr><td>Used space</td><td>".$b->free_space."</td></tr>";			            	
 			            	?>
 			            	</table>
 			            </div>
@@ -49,7 +49,7 @@
 				            	echo "<tr><td>Public IP</td><td>".$backupbox->public_ip."</td></tr>";
 				            	echo "<tr><td>Local IP</td><td>".$backupbox->local_ip."</td></tr>";
 				            	echo "<tr><td>Total size</td><td>".$backupbox->available_space."</td></tr>";
-				            	echo "<tr><td>Used space</td><td>".$backupbox->used_space."</td></tr>";			            	
+				            	echo "<tr><td>Used space</td><td>".$backupbox->free_space."</td></tr>";			            	
 			            	?>
 			            	</table>
 			            </div>

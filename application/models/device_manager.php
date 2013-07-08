@@ -105,7 +105,7 @@ class device_manager extends CI_Model {
 			$b->box_id = $backupbox[0]->box_id;
 			$b->user_id = $backupbox[0]->user_id;
 			$b->last_ping = $backupbox[0]->last_ping;
-			$b->used_space = $backupbox[0]->used_space;
+			$b->free_space = $backupbox[0]->free_space;
 			$b->available_space = $backupbox[0]->available_space;
 			$b->local_ip = $backupbox[0]->local_ip;
 			$b->public_ip = $backupbox[0]->public_ip;
@@ -134,7 +134,7 @@ class device_manager extends CI_Model {
 			$b->box_id = $backupbox[0]->box_id;
 			$b->user_id = $backupbox[0]->user_id;
 			$b->last_ping = $backupbox[0]->last_ping;
-			$b->used_space = $backupbox[0]->used_space;
+			$b->free_space = $backupbox[0]->free_space;
 			$b->available_space = $backupbox[0]->available_space;
 			$b->local_ip = $backupbox[0]->local_ip;
 			$b->public_ip = $backupbox[0]->public_ip;
@@ -163,7 +163,7 @@ class device_manager extends CI_Model {
 			$b->box_id = $backupbox[0]->box_id;
 			$b->user_id = $backupbox[0]->user_id;
 			$b->last_ping = $backupbox[0]->last_ping;
-			$b->used_space = $backupbox[0]->used_space;
+			$b->free_space = $backupbox[0]->free_space;
 			$b->available_space = $backupbox[0]->available_space;
 			$b->local_ip = $backupbox[0]->local_ip;
 			$b->public_ip = $backupbox[0]->public_ip;
@@ -263,7 +263,7 @@ class BackupBox {
 	public $box_id; 
 	public $user_id; 
 	public $last_ping; 
-	public $used_space; 
+	public $free_space; 
 	public $available_space; 
 	public $local_ip; 
 	public $public_ip; 

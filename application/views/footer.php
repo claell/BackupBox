@@ -7,7 +7,7 @@
 $(document).ready(function() {
     $('.box_content').click(function() {
 
-		$('#device_container').load('http://localhost/ping/index.php/main/devices/'+this.id, function() {
+		$('#device_container').load('/index.php/main/devices/'+this.id, function() {
 			var local_ip = $("#localip").attr("value");
 
 			var img = new Image();
